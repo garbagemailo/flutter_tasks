@@ -1,0 +1,41 @@
+name: task
+description: "Практическая работа №9. Форматы данных."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^9.0.0
+  drift: 2.35.0
+  drift_flutter: ^0.3.0
+  get_it: ^9.0.5
+  injectable: ^3.0.0
+  path_provider: ^2.1.5
+  flutter_bloc: ^9.1.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  drift_dev: 2.35.0
+  build_runner: ^2.10.0
+  injectable_generator: ^3.1.3
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/json.png
+    - assets/images/xml.png
+    - assets/images/csv.png
+    - assets/images/yaml.png
+    - assets/images/toml.png
+  fonts:
+    - family: FormatTitle
+      fonts:
+        - asset: assets/fonts/DejaVuSerif-Bold.ttf
+          weight: 700
